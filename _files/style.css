@@ -1,0 +1,20 @@
+/*
+Theme Name: Subtle Acts of Exclusion
+Theme URI: https://subtleactsofexclusion.com
+Version: 1.0
+Description: An customizable theme for the Subtle Acts of Exclusion microsite.
+Author: Antimatter Co.
+Author URI: https://antimatter.co
+template: bb-theme
+*/
+
+/* Force footer to the bottom on pages with limited content */
+.fl-page {
+  position: relative;
+  min-height: 100vh;
+}
+.fl-page-footer-wrap {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
